@@ -1,0 +1,52 @@
+echo ls
+ls
+echo
+echo ls -l -a
+ls -l -a
+echo
+echo ls -l -a -F
+ls -l -a -F
+echo
+echo ls -l -a -F --color=always
+ls -l -a -F --color=always
+echo
+echo pwd
+pwd
+echo
+echo cd .
+cd .
+echo
+echo pwd
+pwd
+echo
+echo cd ..
+cd ..
+echo
+echo pwd
+pwd
+echo
+echo cd
+cd
+echo
+echo pwd
+pwd
+echo
+echo history
+history
+echo
+echo date
+date
+echo
+echo ls > foo
+ls > foo
+echo
+echo sort -r < foo > foo2
+sort -r < foo > foo2
+echo
+echo cat foo foo2
+cat foo foo2
+echo
+ls | wc
+echo
+echo exit
+exit

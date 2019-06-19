@@ -1,0 +1,41 @@
+Collaborators:
+	Kerwin Chen, Tahmid Jamal, Kevin Wang
+
+Description of Project:
+    This project is a version of a type racing game where players can compete against each other to determine who the faster typer is. Players can also practice on their own.
+	In either case, players can see their typing speed in near real time as well as what their accuracy is.
+	The racers' progress will be shown in near real time as progress bars in another terminal.
+	Players will type excerpts from text files in a provided directory and will also have the option to submit their own entries.
+
+User Interface:
+	One computer will act as the server with everyone else connecting as clients. All interaction will be done through terminals.
+
+Technical Design:
+	Breakdown:
+		Kerwin:
+			screen client, stats
+		Tahmid:
+			player client/server
+		Kevin:
+			engine
+
+	Topics/Data structures/Algorithms:
+		Memory allocation:
+			Storage of data.
+        Working with files:
+			Getting the excerpts requires reading from files in a directory and players are also allowed to create their own excerpts by writing to a file.
+		Processes:
+			The server will fork off subprocesses that will deal with all the computational work.
+		Pipes:
+			Communication will be needed between the server and all its clients.
+		Semaphores:
+			Only one user will be allowed to submit their own entries at a time.
+        Networking:
+			Users will have to connect to a single game from different computers and will need to communicate and relay their progress.
+
+Timeline:
+	1/2/19: Finish up game logistics/mechanics.
+	1/4/19: Finish up server/client connections.
+	1/8/19: Finish up proper typing mechanism.
+	1/12/19: Finish up statistics algo/mechanics.
+	1/16/19: Finish all the basics and tidy things up.

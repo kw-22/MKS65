@@ -1,0 +1,60 @@
+ ____   ______   __   __   __       ______   _______
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \
+    \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/
+============================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+12/28/18
+============================================================
+All: Worked on DESIGN
+
+1/1/19
+============================================================
+Kevin: Fixed bugs involving array NULL characters
+
+1/7/19
+============================================================
+Kevin: Prototype of WPM
+
+1/8/19
+============================================================
+Kevin: If spaces are incorrectly typed, will show up. User must now
+		type everything correctly in order to finish.
+Tahmid: Started work on socket code on client side. 
+
+1/9/19
+============================================================
+Kevin: Added time before starting in the beginning. Added accuracy.
+
+1/10/19
+============================================================
+Kevin: Changed look of text while typing. Improved WPM & accuracy formula.
+
+1/11/19
+============================================================
+Kevin: Fixed how far back you can backspace. Completed formulas. Will
+		write results to a file.
+Tahmid: Passing a pipe to engine now so engine directly communicates
+        with child processes of process that is running engine. 
+
+1/13/19
+============================================================
+Kerwin: Attempting to have display function with contents that engine 
+        is piping into the child.
+Tahmid: Working on server side now. Attempting TCP. 
+
+1/16/19
+============================================================
+Kevin: README, changed some functions of engine to conform to specs.
+		Fixed header issues.
+Tahmid: Added in all the stories for game to use. 
+1/18/19
+=============================================================
+Tahmid: Kept running into problems with TCP approach due to lack of 
+        knowledge. Game change so not simultaneous anymore 
+        and kind of turn based.
