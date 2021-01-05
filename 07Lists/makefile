@@ -11,5 +11,5 @@ run:
 	./list
 
 clean:
-	shred -u *.o
-	shred -u ./list
+	rm *.o
+	rm ./list

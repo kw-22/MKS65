@@ -14,5 +14,5 @@ run:
 	@cat bye.txt
 
 clean:
-	shred -u *.o
-	shred -u ./go
+	rm *.o
+	rm ./go

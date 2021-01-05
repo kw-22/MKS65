@@ -8,5 +8,5 @@ run:
 	./info
 
 clean:
-	shred -u *.o
-	shred -u info
+	rm *.o
+	rm info

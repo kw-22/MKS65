@@ -8,5 +8,5 @@ run:
 	./main
 
 clean:
-	shred -u *.o
-	shred -u ./main
+	rm *.o
+	rm ./main

@@ -8,5 +8,5 @@ run:
 	./share
 
 clean:
-	shred -u *.o
-	shred -u ./share
+	rm *.o
+	rm ./share

@@ -11,5 +11,5 @@ run:
 	./my_string_lib
 
 clean:
-	shred -u *.o
-	shred -u ./my_string_lib
+	rm *.o
+	rm ./my_string_lib

@@ -8,5 +8,5 @@ run:
 	./fork
 
 clean:
-	shred -u *.o
-	shred -u ./fork
+	rm *.o
+	rm ./fork

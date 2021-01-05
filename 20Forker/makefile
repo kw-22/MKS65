@@ -16,5 +16,5 @@ pipe_networking.o: pipe_networking.c pipe_networking.h
 	gcc -c pipe_networking.c
 
 clean:
-	shred -u *.o
-	shred -u ./client ./server
+	rm *.o
+	rm ./client ./server

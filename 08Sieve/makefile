@@ -12,8 +12,8 @@ run:
 	./sieve $(args)
 
 clean:
-	shred -u *.o
-	shred -u ./sieve
+	rm *.o
+	rm ./sieve
 
 asm: main.c sieve.c sieve.h
 	gcc -S -fverbose-asm -g -O2 main.c -o main.s

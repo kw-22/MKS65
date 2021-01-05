@@ -8,5 +8,5 @@ run:
 	./struct_playing
 
 clean:
-	shred -u *.o
-	shred -u ./struct_playing
+	rm *.o
+	rm ./struct_playing

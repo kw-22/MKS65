@@ -8,6 +8,6 @@ run:
 	./rand
 
 clean:
-	shred -u *.o
-	shred -u ./rand
-	shred -u out.txt
+	rm *.o
+	rm ./rand
+	rm out.txt

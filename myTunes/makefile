@@ -14,5 +14,5 @@ run:
 	./tunes
 
 clean:
-	shred -u ./tunes
-	shred -u *.o
+	rm ./tunes
+	rm *.o

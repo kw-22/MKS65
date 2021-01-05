@@ -9,5 +9,5 @@ phoneline.o: phoneline.c
 	gcc -c phoneline.c
 
 clean:
-	shred -u *.o
-	shred -u ./tele ./phoneline
+	rm *.o
+	rm ./tele ./phoneline

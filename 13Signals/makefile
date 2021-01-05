@@ -8,6 +8,6 @@ run:
 	./sig
 
 clean:
-	shred -u *.o
-	shred -u ./sig
-	shred -u log.txt
+	rm *.o
+	rm ./sig
+	rm log.txt

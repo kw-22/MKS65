@@ -8,5 +8,5 @@ run:
 	./ls
 
 clean:
-	shred -u *.o
-	shred -u ls
+	rm *.o
+	rm ls

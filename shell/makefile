@@ -14,6 +14,6 @@ run:
 	./shell
 
 clean:
-	shred -u *.o
-	shred -u ./shell
-	shred -u .sh_history
+	rm *.o
+	rm ./shell
+	rm .sh_history

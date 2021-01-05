@@ -34,9 +34,9 @@ engine.o: engine.c engine.h headers.h
 	gcc -c engine.c
 
 clean:
-	shred -u *.o
-	shred -u ./server
-	shred -u ./client
-	shred -u ./display
-	shred -u ./basic_server
-	shred -u results
+	rm *.o
+	rm ./server
+	rm ./client
+	rm ./display
+	rm ./basic_server
+	rm results
